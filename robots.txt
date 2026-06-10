@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://pravo-59.ru/sitemap.xml
