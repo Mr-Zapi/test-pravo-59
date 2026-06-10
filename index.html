@@ -3,7 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Адвокат в Перми — Юридическая помощь</title>
+  <title>Адвокат Шляпина — юридическая помощь в Перми</title>
+  <meta name="description" content="Адвокат Шляпина — юридическая помощь в Перми. Уголовные, гражданские и административные дела. Более 20 лет опыта. Запись по телефону +7 912 885-90-00." />
+  <meta name="keywords" content="адвокат Шляпина, адвокат Пермь, юридическая помощь Пермь, уголовный адвокат Пермь, адвокат по гражданским делам Пермь, адвокат по административным делам, адвокат реестр 59 1721" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://pravo-59.ru/" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=IBM+Plex+Mono:wght@300;400&family=IBM+Plex+Sans:wght@300;400&display=swap" rel="stylesheet" />
@@ -30,6 +34,8 @@
       line-height: 1.7;
       overflow-x: hidden;
     }
+
+    /* ── NAV ───────────────────────────────────── */
     #sitenav {
       position: fixed;
       top: 0; left: 0; right: 0;
@@ -100,6 +106,8 @@
       transition: background .2s, color .2s !important;
     }
     .nav-cta:hover { background: var(--gold) !important; border-color: var(--gold) !important; color: var(--paper) !important; }
+
+    /* burger for mobile */
     .nav-burger {
       display: none;
       flex-direction: column;
@@ -170,8 +178,11 @@
       .nav-burger span { background: var(--ink); }
       .nav-burger.open span { background: var(--paper); }
     }
+
+    /* push body down so nav doesn't overlap */
     body { padding-top: 54px; }
 
+    /* ── HEADER ────────────────────────────────── */
     header {
       position: relative;
       min-height: 100svh;
@@ -279,6 +290,8 @@
       margin-top: .2rem;
     }
     .stat-sep { width: 1px; height: 40px; background: var(--rule); }
+
+    /* ── DECORATIVE RULE ───────────────────────── */
     .section-rule {
       display: grid;
       grid-template-columns: 1fr auto 1fr;
@@ -298,6 +311,7 @@
       background: var(--rule);
     }
 
+    /* ── ABOUT ─────────────────────────────────── */
     #about {
       padding: clamp(3rem, 8vw, 6rem) clamp(1.5rem, 5vw, 4rem);
       display: grid;
@@ -361,6 +375,7 @@
 
     .tl-desc { font-size: .92rem; color: var(--mid); }
 
+    /* ── SERVICES ──────────────────────────────── */
     #services {
       padding: clamp(3rem, 8vw, 6rem) clamp(1.5rem, 5vw, 4rem);
       background:
@@ -397,6 +412,8 @@
     }
 
     .service-desc { font-size: .88rem; color: var(--mid); }
+
+    /* ── PRICING ───────────────────────────────── */
     #pricing {
       padding: clamp(3rem, 8vw, 6rem) clamp(1.5rem, 5vw, 4rem);
     }
@@ -431,6 +448,8 @@
       padding: .15rem .55rem;
       border: 1px solid rgba(184,148,63,.3);
     }
+
+    /* ── MAP ───────────────────────────────────── */
     #contacts {
       padding: clamp(3rem, 8vw, 5rem) clamp(1.5rem, 5vw, 4rem);
       display: grid;
@@ -493,6 +512,7 @@
       display: block;
     }
 
+    /* ── FOOTER ────────────────────────────────── */
     footer {
       padding: 2rem clamp(1.5rem, 5vw, 4rem);
       border-top: 1px solid var(--rule);
@@ -508,6 +528,7 @@
       color: var(--mid);
     }
 
+    /* ── ANIMATIONS ────────────────────────────── */
     @keyframes fadeUp {
       from { opacity: 0; transform: translateY(18px); }
       to   { opacity: 1; transform: translateY(0); }
@@ -522,6 +543,8 @@
   </style>
 </head>
 <body>
+
+<!-- ── NAV ────────────────────────────────────────────── -->
 <nav id="sitenav">
   <a href="#" class="nav-logo">Адвокат<span> · Пермь</span></a>
   <ul class="nav-links" id="navLinks">
@@ -535,11 +558,14 @@
     <span></span><span></span><span></span>
   </button>
 </nav>
+
+<!-- ── HEADER ─────────────────────────────────────────── -->
 <header>
   <div class="topbar">
     <span>Адвокатская деятельность · Пермь</span>
     <span>Реестр 59/1721</span>
   </div>
+
   <div class="hero-text">
     <p class="eyebrow">Юридическая помощь</p>
     <h1>Защита<br>ваших<br><em>прав</em></h1>
@@ -569,6 +595,8 @@
 </header>
 
 <div class="section-rule">О&nbsp;специалисте</div>
+
+<!-- ── ABOUT ──────────────────────────────────────────── -->
 <section id="about">
   <div class="about-text reveal">
     <p class="section-label">Биография</p>
@@ -577,6 +605,7 @@
     <p>Знание судебной системы изнутри позволяет выстраивать защиту максимально эффективно на всех стадиях процесса.</p>
     <p>С 2019 года — адвокат, номер в реестре адвокатов Пермского края <strong>59/1721</strong>.</p>
   </div>
+
   <div class="timeline reveal">
     <div class="tl-item">
       <div class="tl-year">До 2005</div>
@@ -596,7 +625,10 @@
     </div>
   </div>
 </section>
+
 <div class="section-rule">Услуги</div>
+
+<!-- ── SERVICES ───────────────────────────────────────── -->
 <section id="services">
   <p class="section-label">Чем могу помочь</p>
   <h2 class="reveal">Направления<br>работы</h2>
@@ -618,10 +650,13 @@
     </div>
   </div>
 </section>
+
 <div class="section-rule">Стоимость</div>
+
+<!-- ── PRICING ────────────────────────────────────────── -->
 <section id="pricing">
   <p class="section-label">Прозрачные тарифы</p>
-  <h2 class="reveal">Размер вознаграждения за юридическую помощь</h2>
+  <h2 class="reveal">Размер<br>вознаграждения</h2>
   <p class="pricing-note reveal">Указана стартовая стоимость. Итоговая сумма обсуждается индивидуально.</p>
   <div class="pricing-list reveal">
     <div class="price-row"><span class="price-name">Устная консультация</span><span class="price-val">от 2 000 ₽</span></div>
@@ -636,11 +671,15 @@
     <div class="price-row"><span class="price-name">Апелляционная / кассационная жалоба</span><span class="price-val">от 15 000 ₽</span></div>
   </div>
 </section>
+
 <div class="section-rule">Контакты</div>
+
+<!-- ── CONTACTS + MAP ──────────────────────────────────── -->
 <section id="contacts">
   <div class="contact-block reveal">
     <p class="section-label">Как связаться</p>
     <h2>Записаться<br>на консультацию</h2>
+
     <div class="contact-item">
       <span class="contact-key">Телефон</span>
       <span class="contact-val"><a href="tel:+79128859000">+7 912 885-90-00</a></span>
@@ -653,35 +692,43 @@
       <span class="contact-key">Адрес офиса</span>
       <span class="contact-val">г. Пермь, ул. Уинская, д. 29</span>
     </div>
+
     <div class="contact-note">
       ⚠️ Предварительная запись на консультацию <strong>обязательна</strong>
     </div>
   </div>
-  <!-- КАРТА -->
+
+  <!-- КАРТА: замените YOUR_API_KEY на настоящий ключ -->
   <div id="map-container" class="reveal">
     <iframe
       loading="lazy"
       allowfullscreen
       referrerpolicy="no-referrer-when-downgrade"
-      src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCwXFDOymWOBa-0P5OdiQazkU4iKFT6N_g&q=Пермь,+ул.+Уинская,+д.+29&language=ru">
+      src="https://www.google.com/maps/embed/v1/place?key=YOUR_API_KEY&q=Пермь,+ул.+Уинская,+д.+29&language=ru">
     </iframe>
   </div>
 </section>
+
+<!-- ── FOOTER ──────────────────────────────────────────── -->
 <footer>
-  <span>© 2026 Адвокат, г. Пермь</span>
+  <span>© 2025 Адвокат, г. Пермь</span>
   <span>Реестр адвокатов Пермского края № 59/1721</span>
 </footer>
+
 <script>
-  // скролл
+  // Scroll reveal
   const observer = new IntersectionObserver(entries => {
     entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); observer.unobserve(e.target); } });
   }, { threshold: .12 });
   document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+  // Nav: scrolled state
   const nav = document.getElementById('sitenav');
   window.addEventListener('scroll', () => {
     nav.classList.toggle('scrolled', window.scrollY > 40);
   });
 
+  // Nav: active section highlight
   const sections = document.querySelectorAll('section[id]');
   const navAs = document.querySelectorAll('.nav-links a[href^="#"]');
   const sectionObserver = new IntersectionObserver(entries => {
@@ -693,7 +740,7 @@
   }, { rootMargin: '-40% 0px -55% 0px' });
   sections.forEach(s => sectionObserver.observe(s));
 
-  // для телефонов
+  // Burger
   const burger = document.getElementById('navBurger');
   const links  = document.getElementById('navLinks');
   burger.addEventListener('click', () => {
